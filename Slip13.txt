@@ -1,0 +1,13 @@
+SLIP 13#pip install pandas
+
+import pandas as pd
+
+# Load the dataset
+df = pd.read_csv("StudentsPerformance.csv")
+
+# Display the shape of the dataset
+print("Shape of the dataset:", df.shape)
+
+# Display the top rows of the dataset
+print("\nTop rows of the dataset:")
+print(df.head())  # Display the first 5 rows
